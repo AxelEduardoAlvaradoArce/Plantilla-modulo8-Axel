@@ -2,22 +2,22 @@ project:
   type: website
 
 website:
-  title: "Mi sitio de reportes"
+  title: "El sitio de reportes de Axel"
   navbar:
     left:
-      - text: "Sobre este sitio"
-        href: index.qmd
+      - text: "Sobre este fabuloso sitio"
+        href: index.qmd # Siempre tiene que tener un archivo index.qmd
   sidebar:
-    style: docked
+    style: docked # Despliega las secciones en la barra lateral
     contents:
-      - index.qmd
-      - section: "Primer reporte"
+      - index.qmd # Opcional pero siempre es bueno ponerlo
+      - section: "Primer reporte chafa"
         contents:
           - mis_reportes/reporte-01.qmd
-      - section: "Segundo reporte"
+      - section: "Segundo reporte menos chafa"
         contents:
           - mis_reportes/reporte-02.qmd
-      - section: "Último reporte"
+      - section: "Último reporte, por fin lo logré"
         contents:
           - mis_reportes/reporte-03.qmd
 
