@@ -20,7 +20,7 @@ website:
       - section: "Último reporte, por fin lo logré"
         contents:
           - mis_reportes/reporte-03.qmd
-      - section: "Último reporte final, por fin lo logré"
+      - section: "Reporte con dos lenguajes"
         contents:
           - mis_reportes/reporte-04.qmd
 
