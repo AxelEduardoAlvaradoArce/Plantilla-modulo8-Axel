@@ -23,6 +23,6 @@ website:
 
 format:
   html:
-    theme: minty
+    theme: darkly # Este es el nuevo tema que me gusto
     toc: true
     lang: es
